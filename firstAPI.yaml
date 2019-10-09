@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: 'My First API'
+  version: '1.0'
+paths:
+  /api/resource.json:
+    get:
+      responses:
+        '200':
+          description: 'An example resource'
+          content:
+            application/json: {  }
+
